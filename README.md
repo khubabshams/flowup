@@ -1,63 +1,23 @@
-# Khubab Shams – Portfolio Website
+# FlowUp Heating Ltd
 
-A minimal, modern, and responsive portfolio website for Khubab Shams.
+A minimal, professional company website for FlowUp Heating Ltd — heating, plumbing, gas, and boiler services.
 
-## 🚀 Overview
-This project showcases my skills, experience, and projects as a software developer specializing in Python, Odoo ERP, and web/mobile technologies. The site is built with clean HTML and CSS, and features a contact form powered by EmailJS.
+## Pages
 
-_Developed and customized with [Cursor](https://www.cursor.so/) AI assistant._
+- **Home** — hero with company logo and call to action
+- **Services** — heating, plumbing, gas, and boilers
+- **About** — company overview
+- **Contact Us** — address, phone, email, and contact form
 
-## ✨ Features
-- Responsive, minimal design
-- Skills and project showcase
-- Contact form (EmailJS integration)
-- Social links (GitHub, LinkedIn)
-- Favicon and PWA manifest support
+## Setup
 
-## 📁 Folder Structure
-```
-/
-├── public/
-│   ├── favicon.ico, .png, .webmanifest, etc.
-├── src/
-│   ├── index.html
-│   ├── styles.css
-│   └── img/
-│       ├── avatar-profile.png
-│       └── (other images)
-├── .gitignore
-└── README.md
-```
+Open `index.html` in a browser, or serve the folder with any static host (GitHub Pages, Netlify, etc.).
 
-## 🛠️ Setup & Usage
-1. **Clone the repository:**
-   ```bash
-   git clone <your-repo-url>
-   cd <your-repo-folder>
-   ```
-2. **Open `src/index.html` in your browser.**
-3. **To use the contact form:**
-   - [Sign up for EmailJS](https://www.emailjs.com/)
-   - Create a service, email template, and get your public key
-   - Replace the placeholders in the script at the bottom of `index.html` with your actual EmailJS credentials:
-     ```js
-     emailjs.init('YOUR_PUBLIC_KEY');
-     emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', ...)
-     ```
+## Customization
 
-## 🖌️ Customization
-- **Profile image:** Replace `src/img/avatar-profile.png` with your own.
-- **Skills & Projects:** Edit the relevant sections in `src/index.html`.
-- **Colors & styles:** Edit `src/styles.css`.
+Update the placeholder address, phone, and email in the Contact Us section of `index.html`.
 
-## 🌐 Deployment
-You can deploy this site on GitHub Pages, Netlify, Vercel, or any static hosting provider.
+## Assets
 
-- For GitHub Pages, place the contents of `src/` and `public/` in your repository and configure Pages to serve from the root or `/src`.
-
-## 📬 Contact
-For questions or collaboration, use the contact form on the site or email: [khubabShams@gmail.com](mailto:khubabShams@gmail.com)
-
----
-
-> Built and customized with ❤️ by Khubab Shams and [Cursor](https://www.cursor.so/)
+- `img/hero-logo.png` — hero image
+- `favicon-*.png`, `apple-touch-icon.png`, `android-chrome-*.png` — favicons and PWA icons

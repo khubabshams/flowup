@@ -5,250 +5,155 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Minimalism a site to tell people what Minimalism is, and why it's important">
-    <meta name="keywords" content="minimalism, essentialism, declutter, digital minimalism">
+    <meta name="description" content="FlowUp Heating Ltd — professional heating, plumbing, gas, and boiler services. Gas Safe registered.">
+    <meta name="keywords" content="heating, plumbing, gas, boilers, FlowUp Heating, Gas Safe">
 
-    <!-- Fav Icon and Manifest: Best Practice -->
     <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="icon" type="image/png" href="favicon.png">
     <link rel="manifest" href="site.webmanifest">
-    <link rel="shortcut icon" href="favicon.ico">
-    <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="msapplication-TileImage" content="mstile-144x144.png">
-    <meta name="theme-color" content="#ffffff">
-    
-    <!-- Import Stylesheet -->
-    <link rel="stylesheet" href="styles.css">
-    <!-- EmailJS SDK -->
-    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+    <meta name="theme-color" content="#1a3a6b">
 
-    <!-- Tab Title -->
-    <title>Khubab Shams</title>
+    <link rel="stylesheet" href="styles.css">
+    <title>FlowUp Heating Ltd</title>
 </head>
 
 <body>
 
-    <!-- Header: Logo and the Navbar -->
     <header>
-        <!-- Logo -->
-        <a href="#home">
-            <h1 id="logo">Khubab Shams</h1>
+        <a href="#home" class="header-brand">
+            <img src="favicon-32x32.png" alt="FlowUp Heating Ltd logo" class="header-logo" width="32" height="32">
+            <span class="header-name">FlowUp Heating Ltd</span>
         </a>
-
-        <!-- Navbar -->
         <nav>
             <ul id="top-menu">
-                <li class="active">
-                    <a href="#home">Home</a>
-                </li>
-                <li>
-                    <a href="#skills">Skills</a>
-                </li>
-                <li>
-                    <a href="#projects">Projects</a>
-                </li>
-                <li>
-                    <a href="#contact">Contact</a>
-                </li>
+                <li class="active"><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact Us</a></li>
             </ul>
         </nav>
     </header>
 
-    <!-- Hero Section -->
-    <section id="home">
-        <img src="img/avatar-profile.png" alt="Profile avatar" class="profile-img">
-        <h3 class="subtitle">Software Developer | Odoo ERP Developer</h3>
-        <p class="intro">Python and Odoo ERP developer with hands-on experience building business solutions, web apps, and integrations. Skilled in Odoo, Python and familiar with mobile and web development such as Django, React, Flutter, and cloud deployment. Passionate about delivering robust, user-focused products.</p>
-    </section>
+    <main>
+        <section id="home" class="hero">
+            <img src="img/hero-logo.png" alt="FlowUp Heating Ltd — Heating, Plumbing, Gas, Boilers" class="hero-image">
+            <p class="hero-tagline">Trusted heating, plumbing, gas &amp; boiler specialists</p>
+            <a href="#contact" class="btn btn-primary">Get in touch</a>
+        </section>
 
-    <!-- Skills Section -->
-    <section id="skills">
-        <h2>Skills</h2>
-        <ul class="skills-list">
-            <li>Python</li>
-            <li>JavaScript</li>
-            <li>Odoo</li>
-            <li>PostgreSQL</li>
-            <li>ERP</li>
-            <li>Git Version Control</li>
-            <li>SQL</li>
-            <li>Linux</li>
-            <li>Scrum</li>
-            <li>Heroku</li>
-            <li>Django</li>
-            <li>React</li>
-            <li>Android</li>
-            <li>Cursor</li>
-            <li>Azure</li>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>Integrations</li>
-            <li>HL7</li>
-            <li>Database Design</li>
-            <li>Ubuntu</li>
-        </ul>
-    </section>
+        <section id="services">
+            <h2>Our Services</h2>
+            <p class="section-intro">We provide reliable, professional work across all core domestic and commercial heating needs.</p>
+            <div class="services-grid">
+                <article class="service-card">
+                    <h3>Heating</h3>
+                    <p>Installation, repair, and maintenance of central heating systems to keep your home warm and efficient year-round.</p>
+                </article>
+                <article class="service-card">
+                    <h3>Plumbing</h3>
+                    <p>From leaks and blockages to full bathroom and kitchen plumbing — prompt, tidy, and dependable service.</p>
+                </article>
+                <article class="service-card">
+                    <h3>Gas</h3>
+                    <p>Gas Safe registered engineers for appliances, pipework, safety checks, and landlord certificates.</p>
+                </article>
+                <article class="service-card">
+                    <h3>Boilers</h3>
+                    <p>Boiler servicing, breakdowns, upgrades, and new installations with clear advice and quality workmanship.</p>
+                </article>
+            </div>
+        </section>
 
-    <!-- Projects Section -->
-    <section id="projects">
-        <h2>Projects</h2>
-        <div class="projects-container">
-            <div class="card project-card">
-                <div class="card-text project-text">
-                    <h3>Endorse-Plus</h3>
-                    <p>Established an online platform for work-related endorsements and recommendations (<a href="https://github.com/khubabshams/endorse-plus-frontend" target="_blank">frontend: GitHub</a> - <a href="https://github.com/khubabshams/endorse-plus-backend" target="_blank">backend API: GitHub</a>).<br>Technologies Used: Python, Django Rest Framework, React, Heroku.</p>
-                </div>
+        <section id="about">
+            <h2>About Us</h2>
+            <div class="about-content">
+                <p><strong>FlowUp Heating Ltd</strong> is a professional heating and plumbing company dedicated to safe, high-quality work for homes and businesses.</p>
+                <p>Our team covers heating, plumbing, gas, and boilers with a focus on clear communication, fair pricing, and lasting results. We are Gas Safe registered and take pride in doing the job right the first time.</p>
+                <ul class="about-highlights">
+                    <li>Gas Safe registered engineers</li>
+                    <li>Heating, plumbing, gas &amp; boilers</li>
+                    <li>Friendly, professional service</li>
+                    <li>Free quotes on request</li>
+                </ul>
             </div>
-            <div class="card project-card">
-                <div class="card-text project-text">
-                    <h3>Qpharma</h3>
-                    <p>Developed a Flutter Android app, integrated with Odoo backend to streamline supply chain operations (<a href="https://apkpure.com/qpharma/com.qpharma.qpharma" target="_blank">Apkpure App Store</a>).<br>Technologies Used: Android, Flutter, Odoo.</p>
-                </div>
-            </div>
-            <div class="card project-card">
-                <div class="card-text project-text">
-                    <h3>Owline</h3>
-                    <p>Crafted an online Q&A forum and content improvement platform (<a href="https://github.com/khubabshams/owline" target="_blank">GitHub</a>).<br>Technologies Used: Python, Django, Bootstrap, Heroku.</p>
-                </div>
-            </div>
-            <div class="card project-card">
-                <div class="card-text project-text">
-                    <h3>PharmaQuiz App</h3>
-                    <p>Developed a Kotlin Android app to aid pharmacist exam preparation (<a href="https://github.com/khubabshams/pharmaquiz" target="_blank">GitHub</a> & <a href="https://pharmaquiz.uptodown.com/android" target="_blank">UpToDown App Store</a>).<br>Technologies Used: Android, Kotlin.</p>
-                </div>
-            </div>
-            <div class="card project-card">
-                <div class="card-text project-text">
-                    <h3>Database Auto Backup</h3>
-                    <p>Created a module for automated database backups (<a href="https://github.com/khubabshams/database-auto-backup" target="_blank">GitHub</a> & <a href="https://apps.odoo.com/apps/modules/14.0/database_autobackup/" target="_blank">Odoo App Store</a>).<br>Technologies Used: Odoo.</p>
-                </div>
-            </div>
-            <div class="card project-card">
-                <div class="card-text project-text">
-                    <h3>Regions Quiz</h3>
-                    <p>Designed an interactive geography knowledge site (<a href="https://github.com/khubabshams/regions-quiz" target="_blank">GitHub</a> & <a href="https://khubabshams.github.io/regions-quiz/" target="_blank">Live Site</a>).<br>Technologies Used: Vanilla Javascript, HTML, CSS, Firestore.</p>
-                </div>
-            </div>
-            <div class="card project-card">
-                <div class="card-text project-text">
-                    <h3>Minimalism</h3>
-                    <p>Built a website promoting simplicity (<a href="https://github.com/khubabshams/minimalism" target="_blank">GitHub</a> & <a href="https://khubabshams.github.io/minimalism/" target="_blank">Live Site</a>).<br>Technologies Used: HTML, CSS.</p>
-                </div>
-            </div>
-            <div class="card project-card">
-                <div class="card-text project-text">
-                    <h3>Portfolio Website</h3>
-                    <p>This portfolio site you are viewing. Created as a basic website and fully customized by Cursor.<br>Technologies Used: HTML, CSS, JavaScript.</p>
-                </div>
-            </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- Contact Section -->
-    <section id="contact">
-        <h2>Contact</h2>
-        <form class="contact-form" id="contact-form">
-            <input type="text" name="name" placeholder="Your Name" required>
-            <input type="email" name="email" placeholder="Your Email" required>
-            <textarea name="message" placeholder="Your Message" rows="4" required></textarea>
-            <button type="submit">Send Message</button>
-        </form>
-        <div class="contact-email">
-            <a href="mailto:khubabShams@gmail.com">khubabShams@gmail.com</a>
-        </div>
-    </section>
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p class="section-intro">Get in touch for a quote, emergency call-out, or general enquiry.</p>
+            <div class="contact-grid">
+                <div class="contact-details">
+                    <h3>Address</h3>
+                    <address>
+                        FlowUp Heating Ltd<br>
+                        123 Example Street<br>
+                        Your Town<br>
+                        Postcode AB1 2CD<br>
+                        United Kingdom
+                    </address>
+                    <h3>Phone</h3>
+                    <p><a href="tel:+440000000000">0000 000 0000</a></p>
+                    <h3>Email</h3>
+                    <p><a href="mailto:info@flowupheating.co.uk">info@flowupheating.co.uk</a></p>
+                </div>
+                <form class="contact-form" id="contact-form" action="mailto:info@flowupheating.co.uk" method="post" enctype="text/plain">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                    <button type="submit" class="btn btn-primary">Send message</button>
+                </form>
+            </div>
+        </section>
+    </main>
 
-    <!-- Footer: Logo, social networks links, and menu -->
     <footer>
-        <div id="left-side-footer">
-            <!-- Footer Logo -->
-            <a href="#home">
-                <strong id="footer-logo">Khubab Shams</strong>
+        <div class="footer-inner">
+            <a href="#home" class="footer-brand">
+                <img src="favicon-32x32.png" alt="FlowUp Heating Ltd logo" width="28" height="28">
+                <strong>FlowUp Heating Ltd</strong>
             </a>
-
-            <!-- Social Networks Links -->
-            <ul id="social-links">
-                <li>
-                    <a href="https://github.com/khubabshams" target="_blank" rel="noopener noreferrer"
-                        aria-label="Find me on Github (Opens in a new tab)">
-                        <i class="fab fa-github"></i>
-                    </a>
-                </li>
-                <li>
-                    <a href="https://www.linkedin.com/in/khubabshams/" target="_blank" rel="noopener noreferrer"
-                        aria-label="Connect with me on LinkedIn (Opens in a new tab)">
-                        <i class="fab fa-linkedin"></i>
-                    </a>
-                </li>
-            </ul>
-
-            <!-- Bottom Menu -->
+            <p class="footer-services">Heating · Plumbing · Gas · Boilers</p>
             <ul id="bottom-menu">
-                <li>
-                    <a href="#home">Home</a>
-                </li>
-                <li>
-                    <a href="#skills">Skills</a>
-                </li>
-                <li>
-                    <a href="#projects">Projects</a>
-                </li>
-                <li>
-                    <a href="#contact">Contact</a>
-                </li>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact Us</a></li>
             </ul>
+            <p class="footer-copy">&copy; <span id="year"></span> FlowUp Heating Ltd. All rights reserved.</p>
         </div>
     </footer>
 
-    <!-- Font Awesome Script-->
-    <script src="https://kit.fontawesome.com/293685c6a6.js" crossorigin="anonymous"></script>
     <script>
-      // Scroll-based active nav highlighting
-      document.addEventListener('DOMContentLoaded', function() {
-        const sections = ['home', 'skills', 'projects', 'contact'];
-        const navLinks = sections.map(id => document.querySelector(`#top-menu a[href="#${id}"]`));
+      document.getElementById('year').textContent = new Date().getFullYear();
 
-        // IntersectionObserver for scroll-based highlighting
-        const observer = new IntersectionObserver((entries) => {
-          entries.forEach(entry => {
-            if (entry.isIntersecting) {
-              navLinks.forEach(link => link.parentElement.classList.remove('active'));
-              const activeLink = document.querySelector(`#top-menu a[href="#${entry.target.id}"]`);
-              if (activeLink) activeLink.parentElement.classList.add('active');
-            }
-          });
-        }, {
-          threshold: 0.5
-        });
-        sections.forEach(id => {
-          const section = document.getElementById(id);
-          if (section) observer.observe(section);
-        });
+      const sections = ['home', 'services', 'about', 'contact'];
+      const navLinks = sections.map(id => document.querySelector(`#top-menu a[href="#${id}"]`));
 
-        // Click-based highlighting for instant feedback
-        navLinks.forEach(link => {
-          link.addEventListener('click', function() {
-            navLinks.forEach(l => l.parentElement.classList.remove('active'));
-            this.parentElement.classList.add('active');
-          });
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            navLinks.forEach(link => link.parentElement.classList.remove('active'));
+            const activeLink = document.querySelector(`#top-menu a[href="#${entry.target.id}"]`);
+            if (activeLink) activeLink.parentElement.classList.add('active');
+          }
         });
+      }, { threshold: 0.4 });
+
+      sections.forEach(id => {
+        const section = document.getElementById(id);
+        if (section) observer.observe(section);
       });
 
-      // Use hardcoded EmailJS params for static frontend
-      (function() {
-        emailjs.init('ap8wKb5uCooYnSoEl');
-      })();
-
-      document.getElementById('contact-form').addEventListener('submit', function(event) {
-        event.preventDefault();
-        emailjs.sendForm('service_av1uj1r', 'template_91ekwcq', this)
-          .then(function() {
-            alert('Message sent successfully!');
-            document.getElementById('contact-form').reset();
-          }, function(error) {
-            alert('Failed to send message. Please try again later.');
-          });
+      navLinks.forEach(link => {
+        link.addEventListener('click', function() {
+          navLinks.forEach(l => l.parentElement.classList.remove('active'));
+          this.parentElement.classList.add('active');
+        });
       });
     </script>
 </body>
