@@ -50,28 +50,56 @@ const Layout = (function () {
     renderNav("top-menu");
   }
 
+  function formatFooterAddress() {
+    return contact.address.lines.join(" · ");
+  }
+
   function renderFooter() {
     const year = new Date().getFullYear();
     const { label, name, url } = credit;
 
     document.getElementById("site-footer").innerHTML = `
-      <div class="container footer__inner">
-        <div class="footer__brand">
-          <img src="${assets.favicon32}" alt="" width="32" height="32">
-          <div>
-            <strong>${company.name}</strong>
-            <p>${company.tagline}</p>
+      <div class="footer__main">
+        <div class="footer__inner container">
+          <a href="index.html" class="footer__brand brand">
+            <img src="${assets.favicon32}" alt="" width="28" height="28" class="brand__logo">
+            <span class="brand__text">
+              <span class="brand__name">${company.name}</span>
+              <span class="brand__tag">${company.tagline}</span>
+            </span>
+          </a>
+
+          <div class="footer__contact">
+            <a href="tel:${contact.phone.tel}" class="footer__contact-item">
+              <span class="footer__contact-icon">${ICONS.phone}</span>
+              <span>${contact.phone.display}</span>
+            </a>
+            <a href="mailto:${contact.email}" class="footer__contact-item">
+              <span class="footer__contact-icon">${ICONS.mail}</span>
+              <span>${contact.email}</span>
+            </a>
+            <span class="footer__contact-item footer__contact-item--static footer__contact-item--address">
+              <span class="footer__contact-icon">${ICONS.location}</span>
+              <span>${formatFooterAddress()}</span>
+            </span>
+            <span class="footer__contact-item footer__contact-item--static">
+              <span class="footer__contact-icon">${ICONS.clock}</span>
+              <span>${contact.hours}</span>
+            </span>
           </div>
         </div>
-        <ul id="bottom-menu" class="footer__nav"></ul>
-        <p class="footer__copy">© ${year} ${company.name}. All rights reserved.</p>
-        <p class="footer__credit">
-          ${label}
-          <a href="${url}" target="_blank" rel="noopener noreferrer">${name}</a>
-        </p>
+      </div>
+
+      <div class="footer__bar">
+        <div class="container footer__bar-inner">
+          <p class="footer__copy">© ${year} ${company.name}</p>
+          <p class="footer__credit">
+            ${label}
+            <a href="${url}" target="_blank" rel="noopener noreferrer">${name}</a>
+          </p>
+        </div>
       </div>`;
 
-    renderNav("bottom-menu");
   }
 
   function initMobileNav() {
