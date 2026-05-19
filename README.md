@@ -1,23 +1,49 @@
-# FlowUp Heating Ltd
+# FlowUp Heating Ltd — Website
 
-A minimal, professional company website for FlowUp Heating Ltd — heating, plumbing, gas, and boiler services.
+Static multi-page website for FlowUp Heating Ltd.
 
 ## Pages
 
-- **Home** — hero with company logo and call to action
-- **Services** — heating, plumbing, gas, and boilers
-- **About** — company overview
-- **Contact Us** — address, phone, email, and contact form
+| File | Page |
+|------|------|
+| `index.html` | Home |
+| `services.html` | Services |
+| `about.html` | About |
+| `contact.html` | Contact Us |
 
-## Setup
+## Project structure
 
-Open `index.html` in a browser, or serve the folder with any static host (GitHub Pages, Netlify, etc.).
+```
+flowup/
+├── index.html, services.html, about.html, contact.html
+├── content/site.js          # ★ All copy, contact info, navigation, credit
+├── js/
+│   ├── layout.js            # Header, footer, meta, mobile nav
+│   ├── pages.js             # Page body content
+│   ├── icons.js             # SVG icons
+│   └── init.js              # Bootstrap
+├── css/                     # Styles (variables, base, components, layout)
+└── assets/images/ + icons/
+```
 
-## Customization
+## Updating content
 
-Update the placeholder address, phone, and email in the Contact Us section of `index.html`.
+Edit **`content/site.js`**:
 
-## Assets
+- `navigation` — menu labels and page links
+- `contact` — address, phone, email, hours
+- `services`, `about`, `hero` — page copy
+- `credit` — footer designer credit (name & URL)
+- `meta.pages` — per-page title and description
 
-- `img/hero-logo.png` — hero image
-- `favicon-*.png`, `apple-touch-icon.png`, `android-chrome-*.png` — favicons and PWA icons
+## Local preview
+
+```bash
+python3 -m http.server 8080
+```
+
+Open http://localhost:8080
+
+## Credit
+
+Footer credit is configured in `content/site.js` under `credit` (links to [kshams.uk](https://kshams.uk)).
