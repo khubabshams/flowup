@@ -73,28 +73,28 @@ const SITE = {
         icon: "heating",
         title: "Heating",
         description:
-          "Central heating installs, repairs, and power flushing to keep your home efficient and cosy.",
+          "Boiler Repairs, Boiler Servicing, Central Heating Installation, Radiator Repairs & Installation, Underfloor Heating, Power Flushing, Thermostat Installation, Gas Safety Checks",
       },
       {
         id: "plumbing",
         icon: "plumbing",
         title: "Plumbing",
         description:
-          "Leaks, blockages, bathrooms, and kitchens — tidy work with minimal disruption.",
+          "Emergency Plumbing Repairs, Leak Detection & Repairs, Tap & Toilet Repairs, Pipe Installation & Repairs, Bathroom Plumbing, Kitchen Plumbing, Shower Installation & Repairs",
       },
-      {
-        id: "gas",
-        icon: "gas",
-        title: "Gas",
-        description:
-          "Appliances, pipework, safety inspections, and landlord gas safety certificates.",
-      },
+      // {
+      //   id: "gas",
+      //   icon: "gas",
+      //   title: "Gas",
+      //   description:
+      //     "Appliances, pipework, safety inspections, and landlord gas safety certificates.",
+      // },
       {
         id: "boilers",
         icon: "boilers",
-        title: "Boilers",
+        title: "Additional Services",
         description:
-          "Servicing, breakdowns, upgrades, and new boiler installations with honest advice.",
+          "- 24/7 Emergency Call-Outs, Landlord Certificates, Maintenance Contracts",
       },
     ],
   },
@@ -102,8 +102,8 @@ const SITE = {
   about: {
     title: "About FlowUp",
     paragraphs: [
-      "FlowUp Heating Ltd is a professional heating and plumbing company serving homes and businesses with safe, dependable workmanship.",
-      "We specialise in heating, plumbing, gas, and boilers — with clear quotes, tidy sites, and engineers you can trust at your door.",
+      "FlowUp Heating Ltd is a trusted plumbing and heating company. We specialise in plumbing repairs, boiler installations, central heating, and emergency callouts.",
+      "With experienced engineers, reliable service, and honest pricing, we are committed to delivering high-quality workmanship and excellent customer service on every job.",
     ],
     highlights: [
       "Gas Safe registered engineers",
@@ -123,13 +123,13 @@ const SITE = {
     intro: "Ready for a quote or emergency help? Reach us using the details below.",
     address: {
       company: "FlowUp Heating Ltd",
-      lines: ["123 Example Street", "Your Town", "Postcode AB1 2CD", "United Kingdom"],
+      lines: ["123 Example Street", "London", "Postcode AB1 2CD", "United Kingdom"],
     },
     phone: {
-      display: "0000 000 0000",
-      tel: "+440000000000",
+      display: "+44 7908826396",
+      tel: "+447908826396",
     },
-    email: "info@flowupheating.co.uk",
+    email: "flowupheatingltd@gmail.com",
     hours: "Mon–Fri 8:00–18:00 · Emergency call-outs available",
     form: {
       submitLabel: "Send message",
