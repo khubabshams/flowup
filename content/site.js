@@ -94,7 +94,7 @@ const SITE = {
         icon: "boilers",
         title: "Additional Services",
         description:
-          "- 24/7 Emergency Call-Outs, Landlord Certificates, Maintenance Contracts",
+          "24/7 Emergency Call-Outs, Landlord Certificates, Maintenance Contracts",
       },
     ],
   },
