@@ -124,7 +124,7 @@ const SITE = {
     intro: "Ready for a quote or emergency help? Reach us using the details below.",
     address: {
       company: "FlowUp Heating Ltd",
-      lines: ["123 Example Street", "London", "Postcode AB1 2CD", "United Kingdom"],
+      lines: ["The Vale", "London", "W3 7SA", "United Kingdom"],
     },
     phone: {
       display: "+44 7908826396",
