@@ -74,7 +74,7 @@ const SITE = {
         icon: "heating",
         title: "Heating",
         description:
-          "Boiler Repairs, Boiler Servicing, Central Heating Installation, Radiator Repairs & Installation, Underfloor Heating, Power Flushing, Thermostat Installation",
+          "Boiler Repairs, Boiler Servicing, Central Heating Installation, Radiator Repairs & Installation, Underfloor Heating, Power Flushing, Thermostat Installation, Gas Safety Checks",
       },
       {
         id: "plumbing",
@@ -95,7 +95,7 @@ const SITE = {
         icon: "additional",
         title: "Additional Services",
         description:
-          "24/7 Emergency Call-Outs, Gas Safety Checks, Landlord Gas Safety Certificates, Maintenance Contracts",
+          "24/7 Emergency Call-Outs, Landlord Gas Safety Certificates, Maintenance Contracts",
       },
     ],
   },
