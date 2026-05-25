@@ -31,9 +31,9 @@ const Layout = (function () {
     document.getElementById("site-header").innerHTML = `
       <div class="header__inner container">
         <a href="index.html" class="brand">
-          <img src="${assets.favicon32}" alt="${company.name} logo" width="36" height="36" class="brand__logo">
+          <img src="${assets.favicon32}" alt="${company.logoText} logo" width="36" height="36" class="brand__logo">
           <span class="brand__text">
-            <span class="brand__name">${company.name}</span>
+            <span class="brand__name">${company.logoText}</span>
             <span class="brand__tag">${company.tagline}</span>
           </span>
         </a>
@@ -64,7 +64,7 @@ const Layout = (function () {
           <a href="index.html" class="footer__brand brand">
             <img src="${assets.favicon32}" alt="" width="28" height="28" class="brand__logo">
             <span class="brand__text">
-              <span class="brand__name">${company.name}</span>
+              <span class="brand__name">${company.logoText}</span>
               <span class="brand__tag">${company.tagline}</span>
             </span>
           </a>

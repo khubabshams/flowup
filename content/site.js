@@ -5,6 +5,7 @@
 const SITE = {
   company: {
     name: "FlowUp Heating Ltd",
+    logoText: "FlowUp Heating",
     tagline: "Heating · Plumbing · Gas · Boilers",
     gasSafeRegistered: true,
   },
